@@ -133,14 +133,15 @@ def main():
 
         if args.orgnames:
             if args.offset:
-                search_ssl_subject_common_names(args.get,args.offset)
+                extract_orgnames(args.get,args.offset)
             else:
-                search_ssl_subject_common_names(args.get)
+                extract_orgnames(args.get)
 
         if parse_arguments().domains:
             if args.offset:
                 extract_domains(args.get,args.offset)
-            extract_domains(args.get)
+            else:    
+                extract_domains(args.get)
 
 if __name__ == "__main__":
     banner()
