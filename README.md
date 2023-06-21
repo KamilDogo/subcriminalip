@@ -6,12 +6,16 @@ With Subcriminal, users from diverse security disciplines such as pentesters, bu
 
 ## Installation And Setup
 
+1- clone the project :
+```
+git clone https://github.com/KamilDogo/subcriminalip.git
+```
+
 2. Prepare and activate the virtual environment :
 ```
 $ python3 -m venv myenv
 $ source myenv/bin/activate
 ```
-
 
 3. Install requirements :
 ```
