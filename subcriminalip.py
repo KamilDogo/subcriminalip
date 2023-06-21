@@ -128,7 +128,8 @@ def main():
         if args.ips:
             if args.offset:
                 extract_ip_addresses(args.get,args.offset)
-            extract_ip_addresses(args.get)
+            else:    
+                extract_ip_addresses(args.get)
 
         if args.orgnames:
             if args.offset:
