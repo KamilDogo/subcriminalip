@@ -132,8 +132,9 @@ def main():
 
         if args.orgnames:
             if args.offset:
-                extract_orgnames(args.get,args.offset)
-            extract_orgnames(args.get)
+                search_ssl_subject_common_names(args.get,args.offset)
+        else:
+                search_ssl_subject_common_names(args.get)
 
         if parse_arguments().domains:
             if args.offset:
