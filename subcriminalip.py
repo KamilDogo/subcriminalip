@@ -133,7 +133,7 @@ def main():
         if args.orgnames:
             if args.offset:
                 search_ssl_subject_common_names(args.get,args.offset)
-        else:
+            else:
                 search_ssl_subject_common_names(args.get)
 
         if parse_arguments().domains:
