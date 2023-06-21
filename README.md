@@ -6,7 +6,7 @@ With Subcriminal, users from diverse security disciplines such as pentesters, bu
 
 ## Installation And Setup
 
-1- clone the project :
+1. clone the project :
 ```
 git clone https://github.com/KamilDogo/subcriminalip.git
 ```
