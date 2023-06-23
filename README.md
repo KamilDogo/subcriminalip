@@ -22,7 +22,7 @@ $ source myenv/bin/activate
 (myenv) $ pip install -r requirements.txt
 ```
 
-To make use of the tool, you will need to acquire an API key from CriminalIP. Once you have obtained the key, open the script subcriminalip.py using your preferred editor and assign it to the api_key variable in config.py file . This ensures that the tool can authenticate and access the CriminalIP API seamlessly.
+To make use of the tool, you will need to acquire an API key from CriminalIP. Once you have obtained the key, assign it to the api_key variable in config.py file . This ensures that the tool can authenticate and access the CriminalIP API seamlessly.
 
 ```
 cip_api_key = "******YOUR_API_KEY_HERE*******"
